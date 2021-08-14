@@ -10,7 +10,8 @@ from gcn.models import GCN, MLP
 # Set random seed
 seed = 123
 np.random.seed(seed)
-tf.set_random_seed(seed)
+#tf.set_random_seed(seed)
+tf.random.set_seed(seed)
 
 # Settings
 #flags = tf.app.flags
